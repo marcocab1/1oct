@@ -1,0 +1,76 @@
+/*Hoja de estilos*/
+
+.contenedor {
+    width: 560px;
+    height: 300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+background: #D68910;
+    }
+
+    .note {
+        width: 60px;
+        height: 300px;
+        border-radius: 20px;
+        display: inline-block;
+        cursor: pointer;
+        background: #858f30;
+    }
+
+    .center {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+    }
+
+    .while_bold {
+        font-family: Arial, Helvetica, sans-serif;
+        color: while;
+        font-weight: bold;
+        font-size: 20px;
+        user-select: none;
+    }
+
+    .note:nth-child(1) {
+        background: #9C640C;
+        height: 300px;
+    }
+    
+    .note:nth-child(2) {
+        background: #9C640C;
+        height: 280px;
+    }
+
+    .note:nth-child(3) {
+        background: #9C640C;
+        height: 260px;
+    }
+
+    .note:nth-child(4) {
+        background: #9C640C;
+        height: 240px;
+    }
+
+    .note:nth-child(5) {
+        background: #9C640C;
+        height: 220px;
+    }
+
+    .note:nth-child(6) {
+        background: #9C640C;
+        height: 200px;
+    }
+
+    .note:nth-child(7) {
+        background: #9C640C;
+        height: 180px;
+    }
+
+    .note:nth-child(8) {
+        background: #9C640C;
+        height: 160px;
+    }
